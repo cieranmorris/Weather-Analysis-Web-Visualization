@@ -14,10 +14,35 @@
     <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin = "anonymous "></script>
     <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin = "anonymous "></script>
         
-
     </head>
+<!-- NAVIGATION BAR SETUP ACROSS ALL PAGES -->
+    <body class = "bg-light">
 
-    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href = "index.html">Latitude</a>
+
+            <!-- Navbar Toggler -->
+
+            <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbarSupportComponent" aria-controls = "navbarSupportComponent" aria-expanded = "false" aria-label = "Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Dropbar bar to select alt options -->
+            <div class = "collapse navbar-collapse justify-content-end" id = "navbarSupportComponent">
+                <ul class = "navbar-nav">
+                  <li class = "nav-item">
+                    <a class = "nav-link drop-menu" aria-haspopup = "true" data-toggle = "dropdown" href = "#">Plots</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Plots</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+
+
+
+
         <div class = "container-fluid">
             <div class = "row pb-3">
                 <div class = "col-md-12 col-lg-7 mt-5">
