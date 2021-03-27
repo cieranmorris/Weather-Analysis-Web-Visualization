@@ -10,3 +10,37 @@
 .container-fluid {
     background-color: white;
 }
+
+.navbar-tab {
+    text-align:  center;
+    font-family:  "Times New Roman", serif;
+    font-size: 20px;
+    font-weight:  bold;
+    background-color: orange;
+    color: white;  
+}
+
+.nav-link {
+    text-align:  center;
+    font-family:  "Calibri", sans-serif;
+    font-size:  15px;
+}
+
+.nav-link:hover {
+    text-align:  center;
+    background-color:  orange;
+    color: white;
+}
+
+.dropdown-item {
+    text-align:  left;
+    font-family:  "Calibri", sans-serif;
+    font-size:  15px;
+}
+
+.dropdown-item:hover {
+    text-align:  left;
+    font-family:  "Calibri", sans-serif;
+    color: white;
+    background-color:  orange;
+}

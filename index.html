@@ -3,17 +3,21 @@
 <html lang = "en-us">
     <head>
         <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit = no">
-        <title>Latitude Analysis Dashboard -- with Attitude!</title>
+        <title>Latitude Analysis Dashboard  -- with Attitude!!</title>
+    
 
-    <!-- Links for Bootstrap, css stylesheets, and JavaScript queries -->
-    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
-    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin = "anonymous"></script>
-    <link rel = "stylesheet" href = "styles.css">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, shrink-to-fit = no">
+      
+        <!-- Links to Bootstrap, CSS file, and JavaScript -->
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin = "anonymous"></script>
+        <link rel = "stylesheet" href = "styles.css">
 
-    <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin = "anonymous "></script>
-    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin = "anonymous "></script>
+        <!-- Bootstrap JavaScript links:  jQuery and Bootstrap JavaScript -->
+        <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin = "anonymous "></script>
+        <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin = "anonymous "></script>
         
+    
     </head>
 <!-- NAVIGATION BAR SETUP ACROSS ALL PAGES -->
     <body class = "bg-light">
@@ -59,23 +63,27 @@
         <!-- Splitting up web page into intro with plot and visualizations section with all 4 plots -->
 
         <div class = "container-fluid">
+        
+           
             <div class = "row pb-3">
+    
+                <!-- Introduction Column  -->
                 <div class = "col-md-12 col-lg-7 mt-5">
-                    <div class = "col-mid-12">
+                    <div class = "col-md-12">
                         <h3>Summary: Latitude vs. Various Weather Conditions</h3>
                         <hr>
                         <br>
-                        <br>
                         <div class = "body">
-                            <img src = "Resources/assets/images/Fig1.png" id = "image-wrap" class = "image-fluid" width = "35%" height = "auto"
+                            <img src = "Resources/assets/images/Fig1.png" id = "image-wrap" class = "image-fluid" width = "40%" height = "auto">
                         </div>
                         <p>The purpose of this project was to analyze how weather changes as you move closer to the Equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities worldwide.</p>
                         <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather compared to a city's latitude. Factors that were observed included: temperature, cloudiness, humidity, and wind speed. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations that were observed.</p>
                     </div>
                 </div>
 
-
+                <!-- Plot Images in Visualization Column  -->
                 <div class = "col=md-12 col-lg-5 mt-5">
+
                     <div class = "col-md-12">
                         <h3>Visualizations</h3>
                         <hr>
@@ -94,7 +102,7 @@
 
                                 <div class = "col-md-6">
                                     <div class = "body">
-                                        <a href = "visual_lat_humidity.html"><img class = "image-fluid" src = "Resources/assets/images/Fig2.png" height = "auto" width = "100%"></div></a>
+                                        <a href = "visual_lat_humidity.html"><img class = "image-fluid" src = "Resources/assets/images/Fig2.png" height = "auto" width = "100%"></a>
                                     </div>
                                 </div>
                             </div>
@@ -103,13 +111,13 @@
 
                                 <div class = "col-md-6">
                                     <div class = "body">
-                                        <a href = "visual_lat_cloud)cover.html"><img class = "image-fluid" src = "Resources/assets/images/Fig3.png" height = "auto" width = "100%"></a>
+                                        <a href = "visual_lat_cloud_cover.html"><img class = "image-fluid" src = "Resources/assets/images/Fig3.png" height = "auto" width = "100%"></a>
                                     </div>
                                 </div>
 
                                 <div class = "col-md-6">
                                     <div class = "body">
-                                        <a href = "visual_lat_windspeed.html"><img class = "image-fluid" src = "Resources/assets/images/Fig4.png" height = "auto" width = "100%"></div></a>
+                                        <a href = "visual_lat_windspeed.html"><img class = "image-fluid" src = "Resources/assets/images/Fig4.png" height = "auto" width = "100%"></a>
                                     </div>
                                 </div>
                             </div>
