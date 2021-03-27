@@ -20,6 +20,15 @@
     color: white;  
 }
 
+.navbar-tab2 {
+    text-align:  center;
+    font-family:  "Times New Roman", serif;
+    font-size: 20px;
+    font-weight:  bold;
+    background-color: orange;
+    color: white;    
+}
+
 .nav-link {
     text-align:  center;
     font-family:  "Calibri", sans-serif;
@@ -56,5 +65,13 @@ h3 {
     font-size: 30px;
     font-weight: bold;
     text-align: left;
+    color: orange
+}
+
+h4 {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
     color: orange
 }
