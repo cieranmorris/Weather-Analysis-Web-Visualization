@@ -1,8 +1,8 @@
-.image-wrap {
+#image-wrap {
     float: left;
 }
 
-.image-fluid {
+#image-fluid {
     max-width: 100%;
     height: auto;
 }
@@ -16,7 +16,7 @@
     font-family:  "Times New Roman", serif;
     font-size: 20px;
     font-weight:  bold;
-    background-color: orange;
+    background-color: teal;
     color: white;  
 }
 
@@ -25,7 +25,7 @@
     font-family:  "Times New Roman", serif;
     font-size: 20px;
     font-weight:  bold;
-    background-color: orange;
+    background-color: teal;
     color: white;    
 }
 
@@ -37,7 +37,7 @@
 
 .nav-link:hover {
     text-align:  center;
-    background-color:  orange;
+    background-color:  teal;
     color: white;
 }
 
@@ -51,7 +51,7 @@
     text-align:  left;
     font-family:  "Calibri", sans-serif;
     color: white;
-    background-color:  orange;
+    background-color: teal
 }
 
 .p {
@@ -65,7 +65,7 @@ h3 {
     font-size: 30px;
     font-weight: bold;
     text-align: left;
-    color: orange
+    color: teal
 }
 
 h4 {
@@ -73,5 +73,5 @@ h4 {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    color: orange
+    color: teal
 }
