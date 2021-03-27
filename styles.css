@@ -44,3 +44,17 @@
     color: white;
     background-color:  orange;
 }
+
+.p {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 17px;
+    line-height: 2;
+}
+
+h3 {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: orange
+}
