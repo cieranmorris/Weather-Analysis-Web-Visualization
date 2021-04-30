@@ -44,7 +44,7 @@ This website is available for access through my repositorty and is also deployed
 
 ### Screenshots
 
-This section contains screenshots of each page I built, at varying screen widths to demonstrate the code for responsive windows.
+This section contains screenshots of each page I built, at varying screen widths to demonstrate the Bootstrap elements for responsive windows.
 
 #### <a id="landing-page"></a>Landing page
 
