@@ -6,40 +6,42 @@ For this project I created a visualization dashboard website using visualization
 
 In building this dashboard, I created individual pages for each plot and a dropdown menu to navigate between them. Each page contains the visualizations and their corresponding explanations trends within the data. I developed an intiial landing page which displays all of the plots for an overview comparison, and another page where we can view the data used to build them in a table format.
 
-### Website Requirements
+### Website Layout
 
-For reference, see the ["Screenshots" section](#screenshots) below.
-
-The website must consist of 7 pages total, including:
+The website contains **7 pages total**, including:
 
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
-  * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+  * Links to each visualization page. There is a sidebar containing preview images of each plot, and clicking an image allows the user to navigate to that visualization.
+
 * Four [visualization pages](#visualization-pages), each with:
-  * A descriptive title and heading tag.
+  * A descriptive title and heading tag (Max Temperature, Humidity, Cloudiness, and Wind Speed).
   * The plot/visualization itself for the selected comparison.
-  * A paragraph describing the plot and its significance.
+  * A paragraph describing the plot and the significance of its data points.
+
 * A ["Comparisons" page](#comparisons-page) that:
-  * Contains all of the visualizations on the same page so we can easily visually compare them.
-  * Uses a Bootstrap grid for the visualizations.
-    * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+  * Contains all of the visualizations on the same page so that the user easily visually compare them.
+  * I utilized a Bootstrap grid for the visualization layouts. Specifically, the Bootstrap grid is two visualizations acrros on screens medium and larger, and one visualization across on extra-small and small screens. Screenshots displaying the responsive layout of this Bootstrap grid are located at the end of this ReadME file.
+  
+
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
+    * This table utilizes a bootstrap table component, which is referenced in the `data_table.html` file.
+    * The data was converted from a `.csv` to HTML using Pandas in a Jupyter Notebook. Once transformed into a Dataframe, the datetime dependency was used to convert the date structure and then dropped the timestamp.
 
-The website must, at the top of every page, have a navigation menu that:
+### Website Navigation
+
+In order to navigate across all 7 pages in the website, a navigation menu was developed at the top of every page that is capable of the following:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
-* Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-* Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
+* Provides two more text links on the right: "**Comparisons**," which links to the comparisons page, and "**Data**," which links to the data page.
+* Is responsive (using media queries). The nav has similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu).
 
-Finally, the website must be deployed to GitHub pages.
+### Deployment
 
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
+This website is available for access through my repositorty and is also deployed to GitHub pages for external use and observation.
 
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
 ### Considerations
 
