@@ -36,21 +36,11 @@ In order to navigate across all 7 pages in the website, a navigation menu was de
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
 * Provides two more text links on the right: "**Comparisons**," which links to the comparisons page, and "**Data**," which links to the data page.
-* Is responsive (using media queries). The nav has similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu).
+* Is responsive (using CSS media queries). The nav has similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu).
 
 ### Deployment
 
 This website is available for access through my repositorty and is also deployed to GitHub pages for external use and observation.
-
-
-### Considerations
-
-* You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
-* You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
-* Be sure to use a CSS media query for the navigation menu.
-* Be sure your website works at all window widths/sizes.
-* Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
-
 
 ### Screenshots
 
@@ -60,53 +50,52 @@ This section contains screenshots of each page I built, at varying screen widths
 
 Large screen:
 
-![Landing page large screen](Images/landingResize.png)
+![Landing page large screen](Images/landing_page_L.png)
 
 Small screen:
 
-![Landing page small screen](Images/landing-sm.png)
+![Landing page small screen](Images/landing_page_S.png)
 ￼
 
 #### <a id="comparisons-page"></a>Comparisons page
 
 Large screen:
 
-![comparison page large screen](Images/comparison-lg.png)
+![comparison page large screen](Images/comparisons_L.png)
 
 Small screen:
 
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](Images/comparisons_S.png)
 
 #### <a id="data-page"></a>Data page
 
 Large screen:
 
-![data page large screen](Images/data-lg.png)
+![data page large screen](Images/data_table_L.png)
 
 
 Small screen:
 
-![data page small screen](Images/data-sm.png)
+![data page small screen](Images/data_table_S.png)
 
 #### <a id="visualization-pages"></a>Visualization pages
 
-You'll build four of these, one for each visualization. Here's an example of one:
+This is includes a screenshot of one singular visualization, but all four visualizations are formatted in the same layout. 
 
 Large screen:
 
-![visualize page large screen](Images/visualize-lg.png)
+![visualize page large screen](Images/visuals_L.png)
 
 Small screen:
 
-![visualize page small screen](Images/visualize-sm.png)
+![visualize page small screen](Images/visuals_S.png)
 
 #### <a id="navigation-menu"></a>Navigation menu
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![nav menu large screen](Images/nav_menu_L.png)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
 
 ### Copyright
 
