@@ -2,9 +2,9 @@
 
 ## Background Information
 
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
+For this project I created a visualization dashboard website using visualizations I've created in a previous project (**Geographical Weather Analysis**). The initial CSV for this project encompasses [weather data](Resources/cities.csv) factors such as maximum temperature, humidity, cloudiness, and wind speed.
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this dashboard, I created individual pages for each plot and a dropdown menu to navigate between them. Each page contains the visualizations and their corresponding explanations trends within the data. I developed an intiial landing page which displays all of the plots for an overview comparison, and another page where we can view the data used to build them in a table format.
 
 ### Website Requirements
 
@@ -43,7 +43,6 @@ Ensure your repository has regular commits (i.e. 20+ commits) and a thorough REA
 
 ### Considerations
 
-* You may use the [weather data](Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
 * You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
 * You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
 * Be sure to use a CSS media query for the navigation menu.
@@ -53,7 +52,7 @@ Ensure your repository has regular commits (i.e. 20+ commits) and a thorough REA
 
 ### Screenshots
 
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
+This section contains screenshots of each page I built, at varying screen widths to demonstrate the code for responsive windows.
 
 #### <a id="landing-page"></a>Landing page
 
